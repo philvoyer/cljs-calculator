@@ -1,5 +1,4 @@
 *.class
-*.html
 *.jar
 *jar
 .cpcache/
