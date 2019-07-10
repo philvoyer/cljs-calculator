@@ -1,0 +1,132 @@
+/* cljs-calculator css styles by philvoyer */
+
+body {
+  color: #C6C6C6;
+  background-color: #303030;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+}
+
+p {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+p.center {
+  text-align: center;
+  font-weight: normal;
+}
+
+p.center-bold {
+  text-align: center;
+  font-weight: bold;
+}
+
+p.center-italic {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+div.center {
+  text-align: center;
+}
+
+div.center-bold {
+  font-weight: bold;
+  text-align: center;
+}
+
+div.url {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+}
+
+div.text-input {
+  color: #CCCCCC;
+  text-align: center;
+}
+
+div.spacer-vertical {
+  text-align: center;
+  padding-bottom: 0.5cm;
+}
+
+a:link {
+  color: #C6C6C6;
+}
+
+a:visited {
+  color: #AAAAAA;
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #DDDDDD;
+}
+
+input {
+  color: #CCCCCC;
+  background-color: #555555;
+  border: 2px solid #777777;
+  font-size: 32px;
+  font-weight: bold;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+}
+
+button {
+  color: #CCCCCC;
+  background-color: #555555;
+  border: 2px solid #777777;
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+}
+
+button:hover {
+  color: #DDDDDD;
+  background-color: #999999;
+}
+
+button:active {
+  color: #777777;
+  background-color: #EEEEEE;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  height: 35px;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+}
+
+canvas {
+  margin: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 512px;
+}
