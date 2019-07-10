@@ -73,11 +73,8 @@
       (reset! token-last (str (* last-token-as-number -1.0)))
       (update-exp))))
 
-(defn compute-power [x n]
-  (Math/pow x n))
-
 (defn op-power []
-  (println "compute power 2 ^ 8 " (compute-power 2 8)))
+  (add-token "^"))
 
 (defn op-square []
   (when (is-number? @token-last)
@@ -108,6 +105,9 @@
 (defn parentheses-balanced? []
   (let [unique-token-count (frequencies @exp-as-seq)]
     (= (unique-token-count "(") (unique-token-count ")"))))
+
+(defn compute-power [x n]
+  (Math/pow x n))
 
 (defn string-tokenizer [str]
   (let [initial-state '()
