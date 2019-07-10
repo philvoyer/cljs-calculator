@@ -99,7 +99,7 @@
 
 (defn button-callback-op-power []
   (println "button pressed: ^")
-  (logic/add-token "^"))
+  (logic/op-power))
 
 (defn button-callback-op-dot []
   (println "button pressed: .")
